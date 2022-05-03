@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(224, 222, 222);
+    font-family: Roboto, sans-serif;
+}
+.container{
+   max-width: 1000px;
+   background-color: rgb(219, 159, 216);
+   margin: 0 auto;
+   padding: 20px;
+}
+
+.dp{
+    width: 120px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+
+}
+.dp:hover{
+    border:3px solid rgb(247, 230, 4);
+   
+
+}
+.name{
+    float: left;
+    padding:40px;
+    color: navy;
+  
+}
+.contact{
+    float: right;
+    padding:20px;
+}
+.contact a{
+    text-decoration: none;
+    color: navy;
+   font-weight: bold;
+
+}
+.contact a:hover{
+    color: white;
+    background-color: rgb(112, 7, 7);
+
+}
+
+.div-clear{
+    clear: both;
+}
+
+hr{
+    border: solid white 2px;
+    width: 100%;
+
+}
+
+#personal-section{
+    padding:20px;
+
+}
+.content{
+   margin-bottom: 20px;
+
+}
+.left-div{
+width: 30%;
+float: left;
+}
+.right-div{
+width: 70%;
+float: left;
+}
+
+.common-hr{
+    border: solid white 1px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+.footer-part{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+.footer-part a{
+    color: yellow;
+    text-decoration: none;
+    margin: 30px;
+    
+}
+
+.footer-part a:hover{
+    color: white;
+}
+
+.footer-part p{
+    color: white;
+    margin-top: 16px;
+}
